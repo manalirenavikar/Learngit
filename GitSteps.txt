@@ -1,0 +1,23 @@
+Git Fundamentals:
+
+1.Create a folder on local (repo)you want to upload to git.
+2.using git command prompt navigate to the above folder.
+3.git init.
+4.creates .git folder.
+5.Add files you want to commit to git.
+6.git status
+7.shows untracked files.
+8.git commit -m "Description of the file to be added"
+9.git status
+10.git log
+
+=====To add files on git hub remote.====
+1.Create new repo on git hub.
+2.git remote add origin https://github.com/username/reponame(copy from github.com after creating new repo)
+3.git remote -v
+4.git push -u origin master
+5.git fetch origin master
+6.git merge origin/master
+7.git pull origin master
+(pull=fetch+merge) (if you know that there are no conflicts in the file you are fetching else you need to use fetch and merge.
+after fetching you need to resolve the conflicts then merge the changes.)
